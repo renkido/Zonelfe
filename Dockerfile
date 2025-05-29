@@ -7,7 +7,7 @@ RUN git clone https://github.com/renkido/levanter.git /root/LyFE/
 WORKDIR /root/LyFE/
 
 # Install dependencies including express
-RUN yarn add express && yarn install
+RUN yarn install
 # Tell Render which port to use (default: 3000)
 ENV PORT=3000
 
